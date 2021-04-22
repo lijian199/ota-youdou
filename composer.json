@@ -1,0 +1,42 @@
+{
+    "name": "cncn/youdou",
+    "description": "游逗票务系统对接SDK",
+    "repositories": {
+        "0": {
+            "type": "git",
+            "url": "http://192.168.9.11:3000/cpu_sdk/sdk-api-http.git"
+        },
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    },
+    "authors": [
+        {
+            "name": "huyn885",
+            "email": "huyn885@cncn.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "~6.0",
+        "monolog/monolog": ">=1.23.0",
+        "clouds-hu/api-http": ">=v1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cncn\\Youdou\\": "src/"
+        }
+    },
+    "config": {
+        "process-timeout": 0,
+        "sort-packages": true,
+        "secure-http": false,
+        "http-basic": {
+            "192.168.9.11:3000" : {
+                "username": "cpu_sdk_composer",
+                "password": "9?yf0jbiKb!Izkwt"
+            }
+        }
+    }
+}
