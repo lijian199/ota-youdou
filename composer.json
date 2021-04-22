@@ -13,8 +13,8 @@
     },
     "authors": [
         {
-            "name": "huyn885",
-            "email": "huyn885@cncn.com"
+            "name": "lijian199",
+            "email": "lijian90@yeah.net"
         }
     ],
     "require": {
@@ -26,17 +26,6 @@
     "autoload": {
         "psr-4": {
             "Cncn\\Youdou\\": "src/"
-        }
-    },
-    "config": {
-        "process-timeout": 0,
-        "sort-packages": true,
-        "secure-http": false,
-        "http-basic": {
-            "192.168.9.11:3000" : {
-                "username": "cpu_sdk_composer",
-                "password": "9?yf0jbiKb!Izkwt"
-            }
         }
     }
 }
