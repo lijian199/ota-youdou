@@ -4,7 +4,7 @@
     "repositories": {
         "0": {
             "type": "git",
-            "url": "http://192.168.9.11:3000/cpu_sdk/sdk-api-http.git"
+            "url": "https://github.com/lijian199/youdou.git"
         },
         "packagist": {
             "type": "composer",
